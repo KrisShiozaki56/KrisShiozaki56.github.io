@@ -1,0 +1,83 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+/*-----------------------------------------------------
+# GENERAL
+-----------------------------------------------------*/
+  
+.mockup-intro {
+    max-width: 300px;
+    display:inline-block;
+    margin-left: 40px;
+}
+
+.sub-header {
+    font-size: 30pt;
+    font-weight: 400;
+}
+
+#mockups {
+    width:23.5%;
+    height: 10%;
+    display:inline-block;
+    margin: 5px;
+    box-shadow: 5px 10px 20px #c4c4c4;
+}
+
+#Music-intro {
+    padding: 50px 0 20px 0;
+    color: #007bff;
+    text-align: start;
+  }
+
+#mockups-section {
+    width: 100%;
+    position: relative;
+    background: url("../img/intro-bg.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 80px 10px 0;
+    color: #00366f;
+    text-align: start;
+}
+
+
+/* ---- PORTFOLIO BUTTONs ---- */
+.button-prototype {
+    cursor: pointer;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius:50px;
+    background-color: #004289;
+    color: #fff;
+    border: #004289;
+     
+}
+
+.button-prototype:hover,
+.button-prototype:focus {
+    background-color: #007bff;
+    border-radius: 50px;
+    border: #004289;
+    color: #fff;
+}
+
+.button-prototype:focus {
+    outline-offset: -4px;
+}
+
+.button-prototype:active {
+    transform: scale(0.99);
+}
+
+
+.btn-grid-title{
+    padding-right: 30px;
+    color: #004289;
+}
+
+.section-padding {
+    padding: 80px 10px 0;
+}
