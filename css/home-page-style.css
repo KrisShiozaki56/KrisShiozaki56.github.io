@@ -319,7 +319,6 @@ h6 {
 
 /* ---- IMAGES ---- */
 .profile {
-  max-width: 200px;
   display:inline-block;
   border-radius: 50%;
   border: 3px solid #00366f;
