@@ -375,7 +375,7 @@ img {
 
 .img-thumbnails {
 
-  /*box-shadow: 5px 10px 20px #e2e2e2;*/
+  box-shadow: 5px 10px 20px #e2e2e2;
   outline: 1px solid #e7e7e7;
 }
 
