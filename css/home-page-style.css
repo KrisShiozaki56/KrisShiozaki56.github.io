@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
- */
-
 /*-----------------------------------------------------
 # GENERAL
 -----------------------------------------------------*/ 
@@ -14,7 +8,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Questrial", sans-serif;
 }
 
 a {
@@ -69,7 +63,7 @@ h6 {
 }
 
 #link:hover {
-  color: #0b6bd3;
+  color: #00b7ff;
   outline: none;
 }
 
@@ -266,6 +260,15 @@ h6 {
   transform: 150ms ease;
 }
 
+.home-cards {
+  border-radius: 2px;
+}
+
+.card-title,
+.card-text {
+  font-weight: 300;
+}
+
 
 
 /*-----------------------------------------------------
@@ -281,7 +284,7 @@ h6 {
   width: 100%;
   position: relative;
   background-size: cover;
-  padding: 80px 10px 0;
+  padding: 70px 0 0 0;
   color: #00366f;
   text-align: start;
 }
