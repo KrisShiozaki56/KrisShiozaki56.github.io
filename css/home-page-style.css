@@ -277,6 +277,7 @@ h6 {
 
 
 
+
 /*-----------------------------------------------------
 # INTRODUCTION
 -----------------------------------------------------*/
@@ -374,6 +375,8 @@ html {
 /* Make sure images don't get too big */
 img {
   max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 .img-thumbnail {
