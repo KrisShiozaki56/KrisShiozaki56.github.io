@@ -312,9 +312,8 @@ h6 {
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight:                    600;
-  letter-spacing: 1px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+  font-weight: 600;
+  letter-spacing: 1px;
   display: inline-block;
   padding: 10px 40px;
   border-radius: 50px;
@@ -448,18 +447,6 @@ button:active {
 }
 
 
-.carousel-text-h {
-    text-align: center;
-    color: #fff;
-}
-
-.carousel-text-p {
-    bottom: 10px;
-    text-align: center;
-    color: #fff;
-    font-size: 13px;
-}
-s
 
 /*-----------------------------------------------------
 # FOOTER
