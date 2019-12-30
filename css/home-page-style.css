@@ -20,12 +20,12 @@ body,
 }
 
 .card-title {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 a {
-  color: #007bff;
+  color: #00366f;
   transition: 0.5s;
 }
 
@@ -67,6 +67,13 @@ p {
 .header-description {
   font-size: 20px;
   color: #00366f;
+  font-weight: 200;
+}
+
+.shortcuts-text {
+  padding-top: 10px;
+  color: #7e8d9e;
+  text-align: center;
   font-weight: 200;
 }
 
