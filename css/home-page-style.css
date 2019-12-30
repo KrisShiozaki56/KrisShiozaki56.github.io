@@ -10,7 +10,8 @@ body,
   background: #fff;
   color: #444;
   font-family: "Questrial", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+  line-height:160%;
 }
 .card-text {
   font-family: "Questrial", sans-serif;
@@ -24,14 +25,14 @@ body,
 }
 
 a {
-  color: #255c96;
+  color: #007bff;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #007bff;
   outline: none;
   text-decoration: none;
 }
@@ -39,7 +40,34 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 10px 0;
-  line-height: 150%;
+  line-height: 160%;
+}
+
+
+.section-header {
+  color: #7e8d9e;
+  line-height: 250%;
+  font-weight:450;
+}
+
+.section-title {
+  font-size: 20px;
+  color: #007bff;
+  line-height: 200%
+}
+
+.header-title {
+  font-size: 36px;
+  color: #007bff;
+  line-height: 200%;
+  font-weight: 450;
+  text-align: left;
+}
+
+.header-description {
+  font-size: 20px;
+  color: #00366f;
+  font-weight: 200;
 }
 
 h1,
@@ -182,10 +210,9 @@ h6 {
 
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 32px;
   margin: 0;
   padding: 0;
-  line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
