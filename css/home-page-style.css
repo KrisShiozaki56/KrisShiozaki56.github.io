@@ -8,13 +8,15 @@
 body, 
 .lead {
   background: #fff;
-  color: #444;
-  font-family: "Questrial", sans-serif;
+  color: #00366f;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height:160%;
+  font-weight: 200;
 }
 .card-text {
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
   line-height: 150%;
   font-size: 16px;
 }
