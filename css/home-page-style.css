@@ -661,9 +661,34 @@ button:active {
 }
 
 
+/*-----------------------------------------------------
+# TABLE
+-----------------------------------------------------*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
+.th-comp, .td-comp {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
 
+/* tr:nth-child(even) {background-color: #5a7999;} */
 
+.td-take{
+  text-align: left;
+  vertical-align: top;
+  padding: 15px;
+  padding-right: 50px;
+}
+
+th {
+  font-weight: 500;
+  color: #007bff;
+}
 
 
 
