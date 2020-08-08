@@ -22,7 +22,7 @@ body,
 }
 
 .card-title {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -48,7 +48,7 @@ p {
 
 .section-header {
   color: #7e8d9e;
-  line-height: 250%;
+  line-height: 150%;
   font-weight:450;
 }
 
@@ -308,23 +308,68 @@ h6 {
   transform: 150ms ease;
 }
 
-.home-cards {
-  border-radius: 20px;
-  outline-color: #ffffff;
-  border: #ffffff;
-  padding-top: 5%;
-  padding-bottom: 5%;
 
+.home-card-manulife {
+  border-radius: 8px;
+  background: #5CD790;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.home-card-bitecheck {
+  border-radius: 8px;
+  background: #6fdd81;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.home-card-midsun {
+  border-radius: 8px;
+  background: #ffb941;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.home-card-prjvoice {
+  border-radius: 8px;
+  background: #50ACF5;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 40px;
 }
 
 
-.card-title,
 .card-text {
   font-weight: 300;
 }
 
+.card-body {
+  vertical-align: middle;
+}
 
+.card-img {
+  vertical-align: middle;
+}
 
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 /*-----------------------------------------------------
 # INTRODUCTION
