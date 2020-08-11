@@ -383,21 +383,54 @@ h6 {
 }
 
 
-.card-title {
+.home-card-title {
   font-weight: 500;
   font-size: 40px;
   color: #ffffff;
 }
 
 
-.card-text {
+.home-card-text {
   font-weight: 300;
   font-size: large;
   color: #ffffff;
 }
 
+.play-card-text {
+  font-weight: 300;
+  font-size: large;
+}
+
+.play-card-text-link {
+  font-weight: 500;
+  font-size: small;
+  color: #007bff;
+}
+
+
+
+.play-card-title {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.play-card-cad {
+  border-radius: 8px;
+  
+  box-shadow: 0px 0px 0px grey;
+  -webkit-transition:  box-shadow .3s ease-out;
+     box-shadow: 0px 0px 0px  rgb(228, 228, 228);
+}
+
+.play-card-cad:hover{ 
+  box-shadow: 0px 4px 20px rgb(228, 228, 228);
+ -webkit-transition:  box-shadow .3s ease-in;
+}
+
+
 .card-body {
   vertical-align: middle;
+  padding: 1.25rem;
 }
 
 .card-text-mute {
@@ -506,7 +539,9 @@ html {
 
 
 .thumbnail-box {
-  margin-bottom: 35px;
+  margin-bottom: 1%;
+  padding-right: 0.5%;
+  padding-left: 0.5%;
 }
 
 /* Make sure images don't get too big */
