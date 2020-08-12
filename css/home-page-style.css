@@ -311,7 +311,9 @@ h6 {
 
 .home-card-manulife {
   border-radius: 8px;
-  background: #5CD790;
+  border: none;
+  background: #69db99;
+  background: linear-gradient(90deg, rgba(105,219,153,1) 0%, rgba(144,241,184,1) 100%);
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 4%;
@@ -319,17 +321,19 @@ h6 {
 
   box-shadow: 0px 0px 0px grey;
   -webkit-transition:  box-shadow .3s ease-out;
-     box-shadow: 0px 0px 0px rgba(129, 241, 167);
+     box-shadow: 0px 0px 0px rgb(196, 255, 215);
 }
 
 .home-card-manulife:hover{ 
-  box-shadow: 0px 4px 20px rgb(133, 199, 155);
+  box-shadow: 0px 4px 20px rgb(196, 255, 215);
  -webkit-transition:  box-shadow .3s ease-in;
 }
 
 .home-card-bitecheck {
   border-radius: 8px;
   background: #6fdd81;
+  background: linear-gradient(90deg, rgba(116,224,134,1) 0%, rgba(139,246,183,1) 100%);
+  border: none;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 4%;
@@ -347,7 +351,9 @@ h6 {
 
 .home-card-midsun {
   border-radius: 8px;
-  background: #ffb941;
+  border: none;
+  background: #ffaa5f;
+  background: linear-gradient(90deg, rgba(255,170,95,1) 0%, rgba(255,196,144,1) 100%);
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 4%;
@@ -366,13 +372,15 @@ h6 {
 
 .home-card-prjvoice {
   border-radius: 8px;
-  background: #50ACF5;
+  border: none;
+  background: #408dd6;
+  background: linear-gradient(90deg, rgba(64,141,214,1) 0%, rgba(93,176,255,1) 100%);
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 4%;
   padding-right: 4%;
   
-  box-shadow: 0px 0px 0px grey;
+  box-shadow: 0px 0px 0px rgb(255, 255, 255);
   -webkit-transition:  box-shadow .3s ease-out;
      box-shadow: 0px 0px 0px rgba(129, 241, 167);
 }
@@ -407,8 +415,6 @@ h6 {
   color: #007bff;
 }
 
-
-
 .play-card-title {
   font-weight: 500;
   font-size: 22px;
@@ -416,14 +422,15 @@ h6 {
 
 .play-card-cad {
   border-radius: 8px;
+  border-color: #ebebeb;
   
-  box-shadow: 0px 0px 0px grey;
+  box-shadow: 0px 0px 0px rgb(240, 240, 240);
   -webkit-transition:  box-shadow .3s ease-out;
-     box-shadow: 0px 0px 0px  rgb(228, 228, 228);
+     box-shadow: 0px 4px 20px  rgb(228, 228, 228);
 }
 
 .play-card-cad:hover{ 
-  box-shadow: 0px 4px 20px rgb(228, 228, 228);
+  box-shadow: 0px 4px 40px rgb(204, 204, 204);
  -webkit-transition:  box-shadow .3s ease-in;
 }
 
@@ -448,6 +455,30 @@ h6 {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+.btn-home{
+  background: #ffffff;
+  color: #93d6af;
+  border: none;
+  padding: 2% 4% 2%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-home:active{
+  background: #ffffff;
+  color: #93d6af;
+  border: none;
+}
+
+.btn-home:hover{
+  background: #e6e6e6;
+  color: #93d6af;
+  border: none;
+  -webkit-transition: .3s ease-in;
+}
+
+
 
 /*-----------------------------------------------------
 # INTRODUCTION
