@@ -471,6 +471,7 @@ h6 {
   background: #ffffff;
   color: #93d6af;
   border: none;
+  border: none;
 }
 
 .btn-home:hover{
@@ -478,6 +479,10 @@ h6 {
   color: #93d6af;
   border: none;
   -webkit-transition: .3s ease-in;
+}
+
+.wire-img {
+  box-shadow: 0px 4px 12px #dddddd;
 }
 
 
