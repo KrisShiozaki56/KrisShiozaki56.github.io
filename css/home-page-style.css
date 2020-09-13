@@ -408,6 +408,14 @@ h6 {
   cursor: pointer;
 }
 
+.tag{
+  background: #f1f1f1;
+  color: #bebebe;
+  border: #bebebe;
+  border-radius: 4px;
+  font-size: small;
+}
+
 .btn-home:active{
   background: #ffffff;
   color: #93d6af;
