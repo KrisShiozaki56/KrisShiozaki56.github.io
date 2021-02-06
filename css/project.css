@@ -1,0 +1,160 @@
+/*-----------------------------------------------------
+# GENERAL
+-----------------------------------------------------*/ 
+
+.project-intro-details {
+  font-size: 20px;
+  color: #007bff;
+  line-height: 200%
+}
+
+.section-header {
+  line-height: 150%;
+  font-weight: 500;
+  font-size: 19px;
+  color: #007bff;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #7e8d9e;
+  line-height: 200%
+}
+
+.header-title {
+  font-size: 36px;
+  color: #7e8d9e;
+  line-height: 160%;
+  font-weight: 450;
+  text-align: left;
+}
+
+.header-description {
+  font-size: 22px;
+  color: #00366f;
+  font-weight: 200;
+}
+
+.header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.landscape-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#link {
+  color:#00a9d3;
+}
+
+#link:hover {
+  color: #00b7ff;
+  outline: none;
+}
+
+.project-button {
+  background: #ffffff;
+  color:#007bff;
+  border: 2px #007bff;
+  border-style: solid;
+  padding: 8px 32px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.project-button:hover {
+  background: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: .3s ease-in;
+}
+
+.project-button:active{
+  background: #dddddd;
+}
+
+.key-text {
+  font-size: 19px;
+  font-weight: 300;
+  color: #79818b;
+}
+
+.key-quotes {
+  font-size: 19px;
+  font-weight: 300;
+  color: #79818b;
+}
+
+.emphasis-card {
+  background: #f7f8fa;
+  border-color: #007BFF;
+  border-width: 8px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4;
+  padding: 0% 0% 0%;
+}
+
+.emoji-card {
+  font-size: 32px;
+}
+
+
+.card-body {
+  vertical-align: middle;
+  padding: 1.25rem;
+}
+
+.section-padding {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.mini-section-padding {
+  padding-bottom: 6%;
+}
+
+.insight-card {
+  background: #f7f8fa;
+  border: none;
+  border-radius: 8px;
+  padding: 0% 0% 0%;
+}
+
+.title-card {
+  font-size: 19px;
+  color: #00366f;
+  line-height: 200%;
+  font-weight: 500;
+}
+
+.result-link {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background:rgb(239, 250, 255);
+}
+
+.mockups-background {
+  background: linear-gradient(180deg, rgba(240, 240, 240, 0.35) 0%, rgb(238, 238, 238, 0.35) 100%);
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
