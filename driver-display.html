@@ -135,14 +135,11 @@
                         <div class="col-12">
                             <p class="lead  ">
                                 <h1 class="header-title text-left" style="color: #868686;">MS XIV Driver Display</h1>
-                                MS XIV is the UW Midngiht Sun Solar Car Team's 13th solar car, which will participate in the upcoming American Solar challenge and Formula Sun Grand Prix.
-                                The driver display contains the instrument panel for the vehicle and will be displayed on an LED display mounted to the vehicle, which is visible to the driver at all times. <br><br>
-                                
-                                
+                                MS XIV is the UW Midngiht Sun Solar Car Team's 13th solar car, which will participate in the upcoming American Solar challenge and Formula Sun Grand Prix.<br><br>
+                                The driver display contains the instrument panel for the vehicle and will be displayed on an LED display mounted to the vehicle, which is visible to the driver at all times.
 
 
-
-                            </p><br>
+                            </p>
                             
                             <!--
                             <a href="https://www.developer.manulife.ca/" target="_blank">
@@ -165,7 +162,7 @@
                                 <b class="project-intro-details">Team</b></br>
                                 <ul type="circle" style="padding-inline-start: 20px;">  
                                     <li>Product Owner</li>  
-                                    <li>2 UX Designers/li>
+                                    <li>2 UX Designers</li>
                                     <li>1 Firmware Developer</li> 
                                     <li>2 Front-End Developers</li> 
                                 </ul>  
@@ -177,12 +174,6 @@
                                 <br>
                                 <b class="project-intro-details">Contributions</b></br>
                                 I led the collection of research, design, testing and handoff of the interface.
-                                <ul type="circle" style="padding-inline-start: 20px;">  
-                                    <li>Conducted 2 in-person research interviews</li>  
-                                    <li>Conducted 5 usability tests with the first iterations of the design</li> 
-                                    <li>Conducted 3 remote feedback sessions</li>  
-                                    
-                                </ul>  
                             </p>
   
                         </div>
@@ -255,7 +246,7 @@
     
                             <p class="lead  " style="padding-bottom: 2%;">
                                 <b class="section-title">Problem</b> </br>
-                                With MS XIV, Midngiht Sun will traverse 3000km in an endurance race in the American Solar Challenge in the USA. 
+                                With MS XIV, Midnight Sun will traverse 3000km in an endurance race in the American Solar Challenge in the USA. 
                                 The driver display is a critical element that will communicate the current state of the vehicle to the driver while the vehicle is in motion. <br><br>
                                 
                                 The hardware component of the driver display is handled by a Raspberry Pi 3B+ which is mounted to 
@@ -317,7 +308,7 @@
                             <img src="img/driver-display/speed.gif">
                         </div>
 
-                        <div class="col-lg-5 col-12" style="padding-left:0px; padding-right: 0px;">
+                        <div class="col-lg-5 col-12" style="padding-left:0px; padding-right: 0px; padding-top: 1%">
                             <b class="section-title">Supporting Two Speed Metrics </b><br>
                             <p class="lead  ">
 
@@ -339,19 +330,18 @@
                 <div class="container mini-section-padding" style="padding-left:0px; padding-right: 0px;">
                     <div class="row">
 
-                        <div class="col-lg-5 col-12" style="padding-right: 3%;">
+                        <div class="col-lg-5 col-12" style="padding-right: 3%; padding-top: 1%">
                             <b class="section-title">Displaying Explicit Errors</b><br>
                             <p class="lead  ">
 
-                                Once an error is triggered, the driver will be required to pull over for the team to debug the issue. The driver 
-                                display will display a maximum of 4 errors at a time, which are shown as text abbreviations for easy recognition for debugging.<br><br>
+                                A maximum of 4 errors will be displayed at a time, which are shown as text abbreviations for easy recognition for debugging.<br><br>
 
                                 If more than 4 errors are triggered, the following overflow content behaviour in the accompanying mockup will be used. 
 
                             </p>
                         </div>
 
-                        <div class="col-lg-7 col-12" style="padding-left:0px;">
+                        <div class="col-lg-7 col-12 justify-content-end" style="padding-right:0px;">
                             <img src="img/driver-display/errors.gif">
                         </div>
 
@@ -370,14 +360,14 @@
                             <img src="img/driver-display/rec-speed.gif">
                         </div>
 
-                        <div class="col-lg-5 col-12" style="padding-left:0px; padding-right: 0px;">
-                            <b class="section-title">Optimizing for ASC </b><br>
+                        <div class="col-lg-5 col-12" style="padding-left:0px; padding-right: 0px; padding-top: 1%;">
+                            <b class="section-title">Optimizing for Competition </b><br>
                             <p class="lead">
 
                                 With the goal of the ASC being to test the reliability and endurance of all solar car systems, we will be creating models to determine 
                                 the range of our vehicle as well as a recommended speed for a given leg of the route. <br><br>
                                 
-                                The recommended speed will change after a certain distance is travelled, which will be shown with a subtle visual indicator.
+                                The recommended speed will change after a certain distance is travelled, and this change will be shown with a subtle visual indicator.
                                 
 
                             </p>
@@ -412,12 +402,12 @@
                             
                             <p class="lead">
                                 <b class="section-title">Design</b></br>
-                                All elements should be <span style="color:#007bff;">easy to digest at a glance.</span> Additonally, important transitions between component states should 
-                                have <span style="color:#007bff;">indicators that stimulate multiple senses.</span><br><br>
-
-                                An important principle of automotive HMI design is to ensure that the interface keeps distraction to a minimal so that the driver can focus on the road. Furthermore, 
-                                the design should make use of both visual and audio indicators when components such as the turn signals and errors are triggered.
-                            </p><br>
+                                All elements should be <span style="color:#007bff;">easy to digest at a glance.</span> An important principle of automotive HMI design is to ensure that the interface keeps distraction to a minimal so that the driver can focus on the road.<br><br>
+                                
+                                Also, important transitions between states should 
+                                have <span style="color:#007bff;">indicators that stimulate multiple senses.</span>
+                                The design should make use of both visual and audio indicators when components such as the turn signals and errors are triggered.
+                            </p>
     
                         </div>
                     </div>
@@ -440,57 +430,12 @@
                                 <span>PRIMARY RESEARCH</span></h3>
     
                             <p class="lead  ">
-                                <b class="section-title">Understanding Users Perspectives</b> </br>
+                                <b class="section-title">Understanding User Perspectives</b> </br>
                                 The driver display will be used by the drivers of MS XIV. 
-                                <br><br>
-                                I intervieed 2 of the previous drivers of MS XII, our previous vehicle, to better understand the environment and their experience driving on an 
-                                everyday basis vs. driving during an endurance race. I identified these key considerations to later help with contednt generation:
+
+                                We interviewed 2 previous drivers of MS XII, our previous vehicle, to better understand their experience driving in previous competitions
+                                and what information is most important for them to know when behind the wheel. We identified these key considerations:
                                 
-                            </p>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row justify-content-around card-deck">
-        
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#9201</p>
-                            <p class="key-quotes"><i>At Laurier, we apply to 40+ jobs in our first term. 
-                                <span style ="color:#007BFF">I wouldn't read much about one job/company</span> since it takes a lot of time.</i></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#127775</p>
-                            <p class="key-quotes"><i>I always consider <span style ="color:#007BFF">company culture</span> when looking for companies to apply to. I want to make sure it's not 
-                                suffocating.</i></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#127891</p>
-                            <p class="key-quotes"><i>In senior year, I will be thinking about full-time opportunities. 
-                                Being able to <span style ="color:#007BFF">return as a full-time</span> would be pretty nice.</i></p>
-                        </div>
-                    </div>
-
-                </div>
-            </div><br><br><br>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-
-                            <p class="lead  ">
-                                I also pinpointed the top 3 reasons why users do/do not want to apply for engineering positions
-                                in companies in the financial industry:
                             </p><br>
     
                         </div>
@@ -501,27 +446,120 @@
             <div class="container h-100 col-12 col-lg-7">
                 <div class="row justify-content-around card-deck">
         
-                    <div class="card col-12 col-lg-6 insight-card card-top" style="padding-left:0px; padding-right: 0%; background:#edfcec;">
+                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
                         <div class="card-body">
-                            <p class="title-card">Pros</p>
-                            <p class="key-quotes">&#10004 &nbsp High salary</p>
-                            <p class="key-quotes">&#10004 &nbsp Reputable company</p>
-                            <p class="key-quotes">&#10004 &nbsp Company and position stability</p>
+                            <p class="emoji-card">&#128172</p>
+                            <p class="key-quotes"><i>Do we have any electronically applied/implicit brakes? otherwise we 
+                                <span style ="color:#007BFF">cannot have parking mode </span> and can only have neutral.</i></p>
                         </div>
                     </div>
 
-                    <div class="card col-12 col-lg-6 insight-card card-img-top" style="padding-left:0px; padding-right: 0%; background:#ffefef;">
+                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
                         <div class="card-body">
-                            <p class="title-card">Cons</p>
-                            <p class="key-quotes">&#10060 &nbsp Lack of innovation and inflexible</p>
-                            <p class="key-quotes">&#10060 &nbsp Corporate environment</p>
-                            <p class="key-quotes">&#10060 &nbsp Boring</p>
+                            <p class="emoji-card">&#128172</p>
+                            <p class="key-quotes"><i>Many inputs are push buttons and we will need to <span style ="color:#007BFF"> know when something is enabled/disabled.</span> </i></p>
                         </div>
+                    </div>
+
+                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
+                        <div class="card-body">
+                            <p class="emoji-card">&#128172</p>
+                            <p class="key-quotes"><i>Speed is the most important and should be <span style ="color:#007BFF">on the screen at all times, </span> regardless of what state we're in.</i></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="mini-section-padding"></div>
+
+
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="header-container">
+
+                            <p class="lead  ">
+                                <b class="section-title">Preference Testing with Early Iterations</b> </br>
+                                We also conducted 5 preferance tests with preliminary iterations of the driver display. To simulate the driving environment,
+                                we had asked our participants to position themselves arms-length from their laptop screen and to only glance down at the screen when responding to questions.<br><br>
+                            </p>
+                            
+                        </div>
+
+                        <div class="card col-12 emphasis-card" style="padding-left:0px; padding-right: 0%;">
+                            <div class="card-body">
+                                <p class="key-text">These 5 tests challenged and validated our hypotheses around the need for a speedometer to show speed, clarity of the charge icons and the battery bar, and the ease of navigating the screen at quick glances.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row justify-content-around">
+
+                    <div class="col-12 col-lg-6 justify-content-around" style="padding-left:0px; padding-right: 0%;">
+                        <img src="img/driver-display/early-1.png">
+                        <p class="lead text-center img-caption">Design A</p>
+                    </div>
+
+                    <div class="col-12 col-lg-6" style="padding-right: 0%; padding-left: 0%;">
+                        <img src="img/driver-display/early-2.png">
+                        <p class="lead text-center img-caption">Design B</p>
                     </div>
 
                 </div>
             </div><br><br>
 
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="header-container">
+
+                            <p class="lead">
+                                The major concerns raised during the preference tests that we will use to guide the design of the next iteration included:<br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row justify-content-around card-deck">
+        
+                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
+                        <div class="card-body">
+                            <p class="emoji-card">&#129300</p>
+                            <p class="key-quotes">                               
+                                I thought the battery bar was showing incoming energy. It's <span style ="color:#007BFF"> not clear what is means</span> at first glance.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
+                        <div class="card-body">
+                            <p class="emoji-card">&#129327</p>
+                            <p class="key-quotes">                               
+                                The dial is <span style ="color:#007BFF">cluttered</span> and it's hard to read the numbers amongst all those ticks.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
+                        <div class="card-body">
+                            <p class="emoji-card">&#129488</p>
+                            <p class="key-quotes">                               
+                                I'd like to see everything in the dial in <span style ="color:#007BFF">one unit.</span> But I can see the need to have both.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div><br><br>
 
             <div class="container h-100 col-12 col-lg-7">
                 <div class="row h-100 justify-content-center">
@@ -529,48 +567,27 @@
                         <div class="header-container">
     
                             <p class="lead  ">
-                                These insights will help identify the areas of improvement and determine the messages
-                                we aim to communicate through the website's content.
-                            </p>
+                                In response to the feedback, we plan to...
+                                    <ul type="circle" class="lead" style="padding-inline-start: 20px;">  
+                                        <li>Have a speedometer to display the speed</li>  
+                                        <li>Revisit the importance of the battery level relative to all other elements</li>  
+                                        <li>Revisit the choice of element to show the state of charge (i.e. is a bar the most appropriate)</li>
+                                        <li>Iterate upon the dial to declutter - will only show one unit at a time</li>
+                                        <li>Revisit the needle and its contrast against other elements inside the dial to make it more noticeable</li>
+                                    </ul>  
+                                
+                            </p><br>
     
                         </div>
                     </div>
                 </div>
             </div>
-    
-        </header>
-    </section>
 
-
-
-
-
-    <!-- Preview -->
-    <section id="Background" class="animated fadeIn mockups-background">
-        <header class="py-3 mb-2">
-    
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-                            <h3 class="mt-3 mb-2 section-header">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
             
-            <div class="container h-100 col-12 col-lg-9">
-                <div class="row justify-content-center">
-                    <img src="img/driver-display/breakdown.png" class = "center">
-                </div>
-            </div>
+
+
         </header>
     </section>
-
-
-
-
 
 
 
@@ -584,88 +601,37 @@
                         <div class="header-container">
                             <h3 class="mt-3 mb-2 section-header">
                                 <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
-                                    <span>ANALYZING CURRENT USER ACTIONS</span></h3>
+                                    <span>BREAKNG DOWN FEATURES</span></h3>
                                 
                             <p class="lead  ">
-                                <b class="section-title">Current Co-op Application Flow</b> </br>
-                                With applications for co-ops being the main interaction the site supports, I decided to
-                                investigate how students currently apply for internships. <br><br><br>
+                                <b class="section-title">Handling Feature Requests</b> </br>
+
+                                During the user research interviews and preference tests, we noticed that some features and their various states had not been considered and so 
+                                we revisted this with the teams responsible for their implementation.<br><br>
+                                
+                                
+                                Unlike many other projects I have worked on, the experience of using the display did not rely on direct interactions that take you from one screen to another.
+                                Rather, we are working with various states that are triggered via a mix of manual inputs such as push buttons and switches, and software errors. <br><br>
+                                
+                                The electrical teams had designed the controls and inputs for various features to be shown on the driver display. And to understand the indicators and their respective states that
+                                needed to be considered, we created a variation of a state transition table. <br><br>
                             </p>
+
+                            <div class="card col-12 emphasis-card" style="padding-left:0px; padding-right: 0%;">
+                                <div class="card-body">
+                                    <p class="key-text">a modified state transition table was created to outline all features that could be displayed on the driver display, their states and all events that may trigger them. This table will later
+                                        play a key role in handoff to development.</p>
+                                </div>
+                            </div>                            
                             
                         </div>
                     </div>
                 </div>
-            </div>
+            </div><br><br>
             
-            <div class="container h-100 col-12 col-lg-7">
+            <div class="container h-100 col-12 col-lg-9">
                 <div class="row justify-content-center">
-                    <img src="img/manulife/external-apps.png">
-                </div>
-            </div>
-
-            <div class="mini-section-padding"></div>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-
-                            <p class="lead  ">
-                                <b class="section-title">Pain Points</b> </br>
-                                From the interviews and Manulife co-op application walkthrough I conducted, I identified 3 central pain points: <br><br>
-                            </p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row justify-content-around card-deck">
-        
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#128554</p>
-                            <p class="key-quotes">                               
-                                It takes <span style ="color:#007BFF">too long</span> to find relevant job position information online
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#129327</p>
-                            <p class="key-quotes">                               
-                                There are <span style ="color:#007BFF">too many</span> different engineering positions.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#128561</p>
-                            <p class="key-quotes">                               
-                                There's <span style ="color:#007BFF">no information</span> about Manulife Engineering and its culture.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div><br>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-
-                            <p class="lead  ">
-                            Some concerns included the difficulty of locating information - interviewees visited 5+ pages to find engineering co-op position applications in both manulife.ca and manulife.com.
-                            Additionally, there were at least 10 different development positions with very specific titles that confused many students. Lastly, there is currently no information on Manulife Engineering
-                            that will entice students to apply. 
-                            </p>
-                            
-                        </div>
-                    </div>
+                    <img src="img/driver-display/state-transition.png">
                 </div>
             </div>
 
@@ -686,169 +652,9 @@
 
                                 <p class="lead  ">
                                     <b class="section-title">Competitive Analysis</b> </br>
-                                    I conducted a competitive analysis to better understand how other companies attract students and to identify suitable content for a careers and technology website. <br><br>
+                                    The following are some driver displays that we sought inspiration from to design our display. We have outlines general technical aspects, 
+                                    special features, and takeaways that we may consider when designing our display. <br><br>
                                 </p>
-
-                                <div class="container h-100 col-12" style="padding-left:0px;">
-                                    <div class="row h-100 justify-content-center">
-                                        <div class="header-container">
-                                            <img src="img/manulife/comp.png">
-                                        </div>
-                                    </div>
-                                </div><br><br>
-                                  
-                                <div style="overflow-x:auto;">
-                                    <table class="lead takeaway-table">
-                                        <tr>
-                                            <th class="td-take title-card" style="padding-left: 0%;">Key Takeaways</th>
-                                            <th class="td-take" style="padding-left: 0%;"></th>
-                                            <th class="td-take title-card" style="padding-left: 0%;">Opportunities</th>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td-take" style="padding-left: 0%;">Interac's blog posts are listed in the form of a left navigation and to differentiate written vs. media posts, they add ‘VIDEO:’ to the posts' title.</td>
-                                            <th class="td-take" style="padding-left: 0%; font-size:x-large;">&#x21E2;</th>
-                                            <td class="td-take" style="padding-left: 0%; padding-right: 0%;">It has been predetermined that a left navigation bar will be used and to prevent reader confusion, we will adopt a similar differentiating method and avoid 
-                                                using additional side navigation elements.</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td-take" style="padding-left: 0%;">Wish uses a sortable / filterable table to show job opportunities and paragraphs are short,
-                                                concise and to the point. Lots of negative space between page sections.</td>
-                                                <th class="td-take" style="padding-left: 0%;font-size:x-large;">&#x21E2;</th>
-                                            <td class="td-take" style="padding-left: 0%; padding-right: 0%;">We will utilize a shorter banner so that we may show the user more content upon landing on a page.</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td-take" style="padding-left: 0%;">Shopify's Internship page alternating text and imagery alignments and catchy titles draw the user in</td>
-                                            <th class="td-take" style="padding-left: 0%;font-size:x-large;">&#x21E2;</th>
-                                            <td class="td-take" style="padding-left: 0%; padding-right: 0%;">We will avoid multiple columns of text. This will hopefully appear less intimidating and better match the 
-                                                F-pattern the reader follows when reading.</td>
-                                        </tr>
-
-                                    </table>
-                                </div>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </header>
-    </section>
-
-
-    <!-- Content -->
-    <section id="Background" class="animated fadeIn" style="padding-bottom: 2%">
-        <header class="py-3 mb-2">
-    
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-                            <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
-                                <span>BUILDING OUT CONTENT</span></h3>
-    
-                                <p class="lead ">
-                                    <b class="section-title">Content Collection</b></br>
-                                    With the same employees from my discussions around the culture and vision of Manulife Engineering, we brainstormed some potential content features for each of the site's 6 pages.
-                                    I arranged multiple meetings with 
-                                    them as well as a manager of the simplified communications team (content strategy), 
-                                    to ensure page content is accurate and effectively delivers the correct message
-
-                                    <!--
-                                    After summarizing the key takeaways I reached out to individuals who would assist in 
-                                    creating the content for each page. There were a total of 6 pages I would need to write 
-                                    content for and so this meant at least 6 people to ask guidance from as I was not the 
-                                    expert in writing these from a Manulife perspective. I arranged multiple meetings with 
-                                    them as well as a manager of the simplified communications team (content strategy), 
-                                    to ensure page content is accurate and effectively delivers the correct message.
-                                    -->
-                                </p><br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row justify-content-around card-deck">
-        
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#128161</p>
-                            <p class="key-quotes"><i>Co-op opportunities at the top of the page would benefit readers but then they would not read further and miss context on the co-op program.</i></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#128161</p>
-                            <p class="key-quotes"><i>Software and technology updates can better promote our MU program and also offer readers insight into technology applications.</i></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-lg-4 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">&#128161</p>
-                            <p class="key-quotes"><i>Tech Talk events are available to the public and would be great material to market.</i></p>
-                        </div>
-                    </div>
-
-                </div>
-            </div><br><br><br><br>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">                     
-
-                                <p class="lead  ">
-                                    <b class="section-title">Site Map</b></br>
-                                    A site map was created after after analyzing my user research findings and discussing the 
-                                    scope of the project timeline with the PO.
-                                </p><br><br>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-
-                            <img src="img/manulife/site-map.png">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </header>
-    </section>
-
-    <!-- User Flows -->
-    <section id="Background" class="animated fadeIn" style="padding-bottom: 2%">
-        <header class="py-3 mb-2">
-    
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-                            <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
-                                <span>USER FLOWS</span></h3>
-    
-                            <p class="lead  ">
-                                <b class="section-title">Applying for a co-op job</b><br>
-                                I mapped out 3 major user flows to outline entry points, the steps the
-                                user will take and important elements in our site. Below, is the most important flow in our
-                                site<br><br>
-    
-                                <i>NOTE: the flow was done in the preliminary phases of the design of
-                                    the website and had been altered in the wireframes and mockups stages.</i>
-                            </p><br>
     
                         </div>
                     </div>
@@ -856,14 +662,24 @@
             </div>
 
             <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
+                <div class="row justify-content-around">
 
-                                <img src="img/manulife/User-Flow-1.png">
-    
-                        </div>
+                    <div class="col-12 col-lg-6 justify-content-around" style="">
+                        <img src="img/driver-display/ioniq.png">
+                        <p class="lead text-center img-caption">Hyundai Ioniq</p>
                     </div>
+
+                    <div class="col-12 col-lg-6" style="">
+                        <img src="img/driver-display/volvo.png">
+                        <p class="lead text-center img-caption">Volvo XC90 (2019 Early)</p>
+                    </div>
+
+                </div>
+            </div><br><br>
+
+            <div class="container h-100 col-12 col-lg-9">
+                <div class="row justify-content-center">
+                    <img src="img/driver-display/comp-analysis.png">
                 </div>
             </div>
 
@@ -871,7 +687,9 @@
     </section>
 
 
-    <!-- Measuring Success -->
+    
+
+    <!-- Measuring Success 
     <section id="Background" class="animated fadeIn" style="padding-bottom: 2%">
         <header class="py-3 mb-2">
     
@@ -881,14 +699,10 @@
                         <div class="header-container">
                             <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
                                 <span>MEASURING SUCCESS</span></h3>
-    
-                            <p class="lead  ">
-                                    While there were no prior metrics I could gain access to, I determined a central KPI and supporting metrics to monitor and evaluate our website's performance.
-                            </p><br>
 
                             <p class="lead ">
                                 <b class="section-title">Central KPI</b><br>
-                                <span class="title-card">Number of applications submitted</span><br> 
+                                <span class="title-card">Amount of time distra</span><br> 
                                 Aiming for a 10% increase in the total number of engineering co-op and newgrad applications submitted between the Spring 2020 application term to the Spring 2021 application term.
                             </p><br>
 
@@ -905,80 +719,13 @@
 
         </header>
     </section>
-
+    -->
     
 
 
-    <!-- Style Guide -->
-    <section id="Background" class="animated fadeIn" style="padding-bottom: 2%">
-            <header class="py-3 mb-2">
-        
-                <div class="container h-100 col-12 col-lg-7">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-                                <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
-                                    <span>VISUAL DESIGN GUIDELINES</span></h3>
-        
-                                <p class="lead  ">
-                                    Using Manulife's Canadian Design System, I created a style guide specifically for the website to ensure 
-                                    visual design remains consistent.
-                                </p><br>
-
-                                <p class="lead  ">
-                                    <b class="section-title">Typography</b> 
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container h-100 col-12 col-lg-7">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-                                
-                                <img src="img/manulife/site-type.png">
-                                <br>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
-
-                <div class="container h-100 col-12 col-lg-7">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-        
-                                    <p class="lead  ">
-                                        <b class="section-title">Colours</b> 
-                                    </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container h-100 col-12 col-lg-7">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-                                
-                                <img src="img/manulife/site-colours.png">
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-
-            </header>
-        </section>
 
 
-    <!-- Wireframes + A/B Testing -->
+    <!-- Wireframes -->
     <section id="Background" class="animated fadeIn section-padding">
         <header class="py-3 mb-2">
     
@@ -987,154 +734,218 @@
                     <div class="col-lg-12">
                         <div class="header-container">
                             <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
-                                <span>WIREFRAMES + A/B TESTING</span></h3>
+                                <span>WIREFRAMES</span></h3>
     
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div style="padding-bottom: 1%; background: linear-gradient(180deg, rgba(240, 240, 240, 0.35) 0%, rgb(238, 238, 238, 0.35) 100%);">
-                <div class="container h-100 col-12 col-lg-8">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-                                
-                                <img src="img/manulife/wires-notes.png">
-        
-                            </div>
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="header-container">
+                            <p class="lead  ">
+                                <b class="section-title">Design A</b><br>
+                            </p>
+    
                         </div>
                     </div>
                 </div>
-            </div><br><br>
+            </div>
 
             <div class="container h-100 col-12 col-lg-7">
                 <div class="row h-100 justify-content-center">
                     <div class="col-lg-12">
                         <div class="header-container">
 
-                            <p class="lead  ">
-                                <b class="section-title">Why A/B Testing</b><br>
-                                I created a test plan with open-ended questions and conducted 8 tests (4 for each design).<br><br>
+                            <div class="" style="">
+                                <div class="justify-content-center">
+                                    <img src="img/driver-display/mid-fi-1.png">
+                                </div>
+                            </div><br>
+
+                            <div class="container mini-section-padding">
+
                                 
-                                In addition to wanting to learn how well the designs fulfill the goals, I hoped to experiment with content layouts and navigation options within a page, but some 
-                                did not exist in the Manulife design system. I proposed we conduct A/B testing, which would allow a comparison between designs using existing or non-existing components. Results would tell us which offers a better user
-                                experience as well as the need for new navigation and styling options. 
-                            </p><br>
-
-                        <!-- ITERATIONS -->
-                            <div class="container" style="padding-left:0px;">
                                 <div class="row">
     
-                                    <div class="col-lg-7 col-12" style="padding-right:3%; padding-left:0px;">
-                                        <img src="img/manulife/design-1.png">
-                                    </div>
-    
-                                    <div class="col-lg-5 col-12" style="padding-left:0px;">
-                                        <b class="section-title">Design A</b><br><br>
+                                    <div class="col-lg-6 col-12" style="padding-right:3%; padding-left: 0%;">
                                         <p class="lead  ">
-    
-                                            <b>Features</b> :
-                                            <i>Anchor Links</i> allow users to quickly navigate within a page.
-                                            <i>Sectioned Quotes</i> keep the content's page layout consistent, where related
-                                            information is in one section.<br><br>
-    
-                                            <b>Limitations</b> :
-                                            Users are only inclined to read the first quote, and using the anchor links to jump around the
-                                            page may cause confusion.<br><br>
-                                        </p>
+                                            <b style="">Features</b>
+                                            <ul type="circle" class="lead" style="padding-inline-start: 20px;">  
+                                                <li class="li-style">260° arc sweep for speedometer where the path aligns with the min/max speedometer markings.</li>  
+                                                <li class="li-style">Cruise indicator is located below the speed.</li>  
+                                                <li class="li-style">Battery is sectioned to indicate specific intervals of charge.</li>
+                                            </ul>  
+                                        </p><br>
                                     </div>
-                                </div>
-                            </div><br><br>
+    
+                                    <div class="col-lg-6 col-12" style="padding-right: 0%;">
+                                        <p class="lead  ">
+                                            <b>Limitations</b>
+                                            <ul type="circle" class="lead" style="padding-inline-start: 20px;">  
+                                                <li class="li-style">Needle appears to be floating - hiding the track it follows makes it difficult to determine the needle's position.</li>  
+                                                <li class="li-style">Drive state is too eye-catching - draws attention away from the recommended speed and dial sections.</li>  
+                                            </ul>  
+                                        </p>
+                                    
+                                    </div>
 
-                            <div class="container" style="padding-left:0px;">
+
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="header-container">
+                            <p class="lead  ">
+                                <b class="section-title">Design B</b><br>
+                            </p>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="header-container">
+
+                            <div class="" style="">
+                                <div class="justify-content-center">
+                                    <img src="img/driver-display/mid-fi-2.png">
+                                </div>
+                            </div><br>
+
+
+                            <div class="container">
+
+                                
                                 <div class="row">
     
-                                    <div class="col-lg-7 col-12" style="padding-right:3%; padding-left:0px;">
-                                        <img src="img/manulife/design-2.png">
-                                    </div>
-    
-                                    <div class="col-lg-5 col-12" style="padding-left:0px;">
-                                        <b class="section-title">Design B</b><br><br>
+                                    <div class="col-lg-6 col-12" style="padding-right:3%; padding-left: 0%;">
                                         <p class="lead  ">
-    
-                                            <b>Features</b> :
-                                            <i>Scattered Quotes</i> provide the users with a 'break' between sections.
-                                            <br><br>
-    
-                                            <b>Limitations</b> :
-                                            Quotes may disrupt the flow of the page's content. <br><br>
-                                        </p>
+                                            <b>Features</b>
+                                            <ul type="circle" class="lead" style="padding-inline-start: 20px;">  
+                                                <li class="li-style">Full circle acts as a container, emphasizing the visual grouping of elements inside the speedometer.</li>  
+                                                <li class="li-style">Cruise indicator is between the turn signals, to be easier to see when the driver quickly glances down</li>
+                                                <li class="li-style">Needle connects to a track that follows the dial outline, to emphasize the needle's position and the current speed</li>
+                                            </ul>  
+                                        </p><br>
                                     </div>
-                                </div>
-                            </div><br><br>
     
+                                    <div class="col-lg-6 col-12" style="padding-right: 0%;">
+                                        <p class="lead  ">
+                                            <b>Limitations</b>
+                                            <ul type="circle" class="lead" style="padding-inline-start: 20px;">  
+                                                <li class="li-style">Full circle speedometer takes up more real estate, causing nearby elements to appear cluttered </li>  
+                                                <li class="li-style">The needle's sweep is not a full 360° sweep - the full circle outline is more confusing since the outline serves as the track for the needle as well.</li>
+                                            </ul>  
+                                        </p>
+                                    
+                                    </div>
+
+
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+    </section>
+
+    <!-- Style Guide -->
+    <section id="Background" class="animated fadeIn section-padding">
+        <header class="py-3 mb-2">
+    
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="header-container">
+                            <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
+                                <span>VISUAL DESIGN GUIDELINES</span></h3>
     
                             <p class="lead  ">
-                                <b class="section-title">Test Results</b><br>
-                                I compiled the key findings from the tests to show the need for layout and content 
-                                changes, which would accompany my proposed ideas to my PO. Here are a few quantified results from our Internships page.
+                                <b class="section-title">Style Guide</b><br>
+                                We created a style guide to ensure the visual design remained consistent and fairly simple - since all of these would be seen on one screen, we wanted to keep 
+                                the number of colours and text styles to a minimum while having enough to help emphasize visual hierarchy.<br><br>
+
+                                we also considered colour contrast when creating our colours. We ensured that any active text and symbols met the AA AODA colour contrast ratio requirement of 4.5:1.
                             </p><br>
-    
+
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row justify-content-around card-deck">
-        
-                    <div class="card col-12 col-lg-6 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">8 of 8</p>
-                            <p class="key-quotes">participants found the table's filtering options to be <span style="color:#007bff;">intuitive and helpful</span> in finding positions.</p>
-                        </div>
-                    </div>
 
-                    <div class="card col-12 col-lg-6 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">5 of 8</p>
-                            <p class="key-quotes">participants <span style="color:#007bff;">appreciated the context</span> about co-op before before seeing the job openings and wished these parts were shorter.</p>
-                        </div>
-                    </div>
-                </div><br>
-
-
-                <div class="row justify-content-around card-deck">
-
-                    <div class="card col-12 col-lg-6 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">4 of 8</p>
-                            <p class="key-quotes">participants <span style="color:#007bff;">could not identify</span> what differentiates Manulife's co-op experience from other companies.</p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-lg-6 insight-card" style="padding-left:0px; padding-right: 0%;">
-                        <div class="card-body">
-                            <p class="emoji-card">6 of 8</p>
-                            <p class="key-quotes">participants were looking for <span style="color:#007bff;">information about projects and tools</span> under the FAQ section.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!--
             <div class="container h-100 col-12 col-lg-9">
                 <div class="row h-100 justify-content-center">
                     <div class="col-lg-12">
                         <div class="header-container">
                             
-                            <img src="img/manulife/test-results.png">
+                            <img src="img/driver-display/style.png">
+                            <br>
     
                         </div>
                     </div>
                 </div>
-            </div>
-            -->
+            </div><br>
+
 
         </header>
     </section>
+
+
+    <!-- Handoff -->
+    <section id="Background" class="animated fadeIn" style="padding-bottom: 2%">
+        <header class="py-3 mb-2">
+    
+            <div class="container h-100 col-12 col-lg-7">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="header-container">
+                            <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
+                                <span>HANDOFF</span></h3>
+    
+                                <p class="lead ">
+                                    <b class="section-title">Feature Breakdown</b></br>
+                                    Along with the state transition table, we put together a graphic to help better visualize the changes of states of the indicators. and the placement of each feature.
+
+                                </p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container h-100 col-12 col-lg-9">
+                <div class="row h-100 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="header-container">
+
+                            <img src="img/driver-display/breakdown.png">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+    </section>
+
+
+
 
     <!-- Solutions -->
     <section id="Background" class="animated fadeIn section-padding">
@@ -1146,166 +957,19 @@
                         <div class="header-container">
                             <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
                                 <span>FINAL SOLUTION</span></h3>
-    
-                            <p class="lead">
-                                <b class="section-title">Applying for Student Career Opportunities</b><br>
-                            </p>
+
+                                <p class="lead">Below, you can find a short video that highlights some of the main features and the transitions between theri various states.</p>
+
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/z2w7yDCNwog" allowfullscreen></iframe>
+                                </div>
     
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
 
-                            <p class="lead">
-                                <span class="title-card">Filterable Table for Positions</span><br>
-                                After considering the addition of more co-op roles in the future, and the users needs to quickly 
-                                search for specific positions, the table was the most suitable choice to display student opportunities. 
-                                The table allows users to filter by location and roles, which will especially help them when there are 
-                                several roles offered. Currently, there are 6 types of positions with over 50+ openings in the KW region 
-                                for Manulife.
-                            </p>    
-                        </div>
-                    </div>
-                </div>
-            </div><br>
-
-            <div class="mockups-background">
-                <div class="container h-100 col-12 col-lg-9">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-                                
-                                <img src="img/manulife/internship-preview.png">
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mini-section-padding"></div>
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-
-                            <p class="lead  ">
-                                <b class="section-title">About the Engineering Team</b><br>
-                            </p>
-
-                            <p class="lead  ">
-                                <span class="title-card">Timeline of Manulife Engineering</span><br>
-                                We wanted to clearly and quickly tell readers that Manulife has come a long way in the past couple years.
-                                A static timeline was quick to implement, meeting our developer needs, and effectively delivered meaningful information to readers, as
-                                proven during 10-second tests that were quickly conducted with university students.
-                            </p>
-    
-                        </div>
-                    </div>
-                </div>
-            </div><br>
-
-            <div class="mockups-background">
-                <div class="container h-100 col-12 col-lg-9">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-                                
-                                <img src="img/manulife/about-preview.png">
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="mini-section-padding"></div>
-
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-
-                            <p class="lead  ">
-                                <b class="section-title">Events Hosted + Supported by Manulife</b><br>
-                            </p>
-
-                            <p class="lead  ">
-                                <span class="title-card">Anchor Links for Secondary Navigation</span><br>
-                            
-                                Anchor links provide options for users to
-                                efficiently navigate to specific sections within a page. This is especially helpful for these long,
-                                descriptive pages. The links also provide an overview of what is on the page, which was a key point
-                                noted by the majority of testers who tested the anchor links, during A/B testing.
-                            </p>
-    
-                        </div>
-                    </div>
-                </div>
-            </div><br>
-
-            <div class="mockups-background">
-                <div class="container h-100 col-12 col-lg-9">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-                                
-                                <img src="img/manulife/events-preview.png">
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="mini-section-padding"></div>
-
-
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-                            
-                            <p class="lead  ">
-                                <b class="section-title">Blog + Updates on Manulife's Transformation</b><br>
-                            </p>
-
-                            <p class="lead  ">
-                                <span class="title-card">Dropdown Menus for Filtering</span><br>
-                            
-                                For future releases, we hope to rollout chips in place of the multi-selection 
-                                dropdown. Currently, chips are not in Manulife’s Canadian Design System but I have proposed ideas 
-                                that will hopefully speedup the rollout process. The drop down may hide options but is a friendly 
-                                feature that is easy for the general majority to figure out how to use. 
-                            </p>
-    
-                        </div>
-                    </div>
-                </div>
-            </div><br>
-
-            <div class="mockups-background">
-                <div class="container h-100 col-12 col-lg-9">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-                                
-                                <img src="img/manulife/blog-preview.png">
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </header>
     </section>
@@ -1320,57 +984,42 @@
                     <div class="col-lg-12">
                         <div class="header-container">
                             <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
-                                <span>RESULTS + NEXT STEPS</span></h3>
-    
-                            <p class="lead">
-                                <b class="section-title">4 Month Internship</b><br>
-                                My internship at Manulife ended after 4 months, but I decided to stay with them part-time to 
-                                see this project there. After 9 months at Manulife, this project is currently undergoing final reviews
-                                from company executives and a first release is expected early June.
+                                <span>NEXT STEPS</span></h3>
+
+
+                            <p class="lead mini-section-padding">
+                                <b class="section-title">Developing and Designing in Parallel</b><br>
+                                The goal is to have the two front-end developers complete the front-end over the next 4 months. In parallel, we (the designers) will
+                                be meeting with the electrical teams - hardware and firmware, to verify that we have included all the features and if they have any additional issues
+                                with the design. 
                             </p>
 
-                            <div class="mini-section-padding"></div>
+                            <p class="lead">
+                                <b class="section-title">Additional Testing</b><br>
+                                Due to the dangerous environment the screen will be used in, we plan to follow a 4-stage plan to evaluate the clarity of features and how distracting the screen may be.
+                                <ol class="lead">
+                                    <li class="li-style">smoke and unit testing of flutter app on 7" screen</li>
+                                    <li class="li-style">usability testing in rolling chassis (stationary vehicle)</li>
+                                    <li class="li-style">usability testing in slow moving vehicle in a parking lot (controlled enviornment)</li>
+                                    <li class="li-style">usability testing on race track to mimic the FSGP track race</li>
+                                </ol>
+                            </p>
 
                             <p class="lead">
-                                <b class="section-title">4 Months of Part-Time Work</b><br>
-                                By the end of my co-op term, I had drafts of mockups for the Internships, Events, Blog Feed 
-                                and Blog Post pages in mobile and desktop views. Prior to the release, mockups for the About 
-                                and landing pages will need to be created, reviewed and iterated upon.  The AEM team operates 
-                                with more of a Waterfall approach so I would be working with the AEM team lead to determine 
-                                developer efforts/allocations. The content strategy team will be pulled in for final content 
-                                reviews for pages before handing them off to developers. 
+                                By following this more extensive plan, we are able to put our drivers first while ensuring that any iterations are of value to the driver. 
                             </p>
     
                         </div>
                     </div>
                 </div>
-            </div><br><br><br>
-
-                <div class="container h-100 col-12 col-lg-7">
-                    <div class="row h-100 justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="header-container">
-
-                                <p class="lead">
-                                    <b class="section-title">Going Live!</b><br>
-                                    In June 2020, <i>developer.manulife.ca</i> officially went live and is slowly being updated to date!
-                                </p>
-
-                                <a href="https://www.developer.manulife.ca/" target="_blank">
-                                    <button type="button" class="project-button">View Live Website</button>
-                                </a>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            </div>
 
 
 
         </header>
     </section>
 
-    <!-- Learnings -->
+    <!-- Learnings --> 
     <section id="Background" class="animated fadeIn section-padding">
         <header class="py-3 mb-2">
     
@@ -1383,93 +1032,24 @@
                                     <span>LEARNINGS</span></h3>
     
                             <p class="lead  ">
-                                    <b class="section-title">Balancing stakeholder needs can be difficult in corporations</b><br>
-                                    Each stage of the design process saw some clash between these two needs. One on side, we care about the user and 
-                                    want to give them a flawless experience when browsing the site. But on the other side, we want to ensure the styling of
-                                    the site is in line with other Manulife products and that the clients' wants are fulfilled. <br><br>
-                                    
-                                    For example, on the Internships page, it is expected that the majority of visitors are looking for position details and want to apply. So having at the top may make 
-                                    sense so they don't have to scroll around and waste time finding it, right? But we intentionally put it it towards the bottom to show them other information and hopefully 
-                                    teach them something cool and unique about Manulife's co-op program, before they apply. The idea was to communicate this information to them so they apply with more conviction and really feel like the co-op program is special at Manulife.     
+                                    <b class="section-title">There's more than what meets the eye to designing a single screen</b><br>
+                                    This was my first time tackling a project where I was working on a single screen with numerous inputs, rather than mapping out flows and user journeys as they walk 
+                                    through multiple screens. This project has taught me the importance of communication across multiple teams (hardware, firmware, strategy) to understand how various were implemented so we can design
+                                    them appropriately. 
                             </p>
 
                             <div class="mini-section-padding"></div>
 
                             <p class="lead  ">
-                                <b class="section-title">Design reviews were election for my designs</b><br>
-                                "My products were running for elections every day and only good designs were capable of winning the campaign" (P&G, A.G. Lafley). It was during this 
-                                project when I understood the meaning of design decisions and justifications. Not every stakeholder has a background in design and in fact, the majority
-                                of stakeholders I spoke to were not familiar with it. Whether it was what content to include, the language and actual layouts, I had to ensure I explained 
-                                my opinions without the use of technical terminology.<br><br> 
-                                
-                                For example, the need for anchor links on our 'Internships' and 'Events' pages. Both pages are long in comparison to our other pages. And if a user is looking for 
-                                specific information such as how to apply for a position, anchor links could send them directly to it, without getting lost while scrolling on the page. But anchor links may also cause confusion as they cause users to jump around
-                                a page. These assumptions were further researched during usability testing and after verifying that they were more helpful than confusing, they were implemented. It was when I had this feedback in combination with my justifications, 
-                                that I could provide a strong argument for this component to my stakeholders.
+                                <b class="section-title">Don't be afraid to restart if you identify a need to do so and have the resources</b><br>
+                                Up until a couple of months ago, we were planning to stick with Design B that was shown earlier. However, after reviewing the preference test results on those iterations, we believed that there was lots of room for improvement and we had some members who were
+                                interested in UI/UX design. And so we used this project as a learning opportunity as well as a chance to imporove the driver experience. I have learned the importance of prioritizing projects by considering team member developmetn as well as impact on the overall project, MS XIV.
                             </p>
     
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
-    </section>
-
-    <!-- Future Considerations -->
-    <section id="Background" class="animated fadeIn section-padding">
-        <header class="py-3 mb-2">
-    
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-                            <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
-                                <span>FUTURE CONSIDERATIONS</span></h3>
-    
-                            <p class="lead  ">
-                                <ul class="lead  ">   
-                                    <li>Why would students who must apply for co-op through their school, visit developer.manulife.ca?</li>
-                                    <li>How can we better market this platform post-release to ensure impact is delivered in future updates?</li>
-                                    <li>Why would students browse company-only events?</li>
-                                </ul> 
-                            </p>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-    </section>
-
-    <!-- Future Considerations -->
-    <section id="Background" class="animated fadeIn section-padding">
-        <header class="py-3 mb-2">
-    
-            <div class="container h-100 col-12 col-lg-7">
-                <div class="row h-100 justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="header-container">
-                            <h3 class="mt-3 mb-2 section-header" style="padding-bottom: 1%;">
-                                <span>DESIGNING WITH LESS LIMITATIONS</span></h3>
-    
-                            <p class="lead  ">
-                                <b class="section-title">A more ideal look</b><br>
-
-                                The designs came with many restrictions and as an experiment, I wanted to see what I could produce if the other design system 
-                                being employed by Manulife was available to me. Here's a sample of what I would have liked the Home and Internships pages to have looked like!
-                            </p>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container h-100 col-12 col-lg-9">
-                <div class="row justify-content-center">
-                    <img src="img/manulife/rework.png" class = "center">
-                </div>
-            </div>
-
         </header>
     </section>
 
@@ -1517,6 +1097,39 @@
                                         <div class="col-lg-12 col-12" style="padding-left:0px;">
                                             <h3 class="mt-3 mb-2 header-title"><span>More Projects</span></h3>
                                         </div><br><br><br><br>
+
+                                        <a href="manulife.html">
+                                            <div style="padding-left: 1%; padding-right: 1%;">
+                                                <div class="container card mb-4 col-12 home-card-main" style="padding-right: 0%; padding-left: 0%;">
+                                                    <a href="manulife.html">
+                                                            <div class="col-12 row no-gutters" style="vertical-align: middle; padding-right: 0%; padding-left: 0%;">
+                        
+                                                                <div class="col-md-6" style="padding-top: 5%; padding-bottom: 5%;">
+                                                                    <div class="card-body">
+                                                                        <h5 class="home-card-title">Manulife Developers</h5>
+                                                                        <p class="home-card-text" style="font-weight: 300; padding-bottom: 3%;">Designing Manulife's first engineering outreach web platform, <i>developer.manulife.ca</i></p>
+                                                                            
+                                                                            <div class="row col-md-12">
+                                                                                <div style="padding-bottom: 3%;"><button type="button" class="btn btn-outline disabled tag" style="color: #868686;">Web Design</button></div> &nbsp;
+                                                                                <div style="padding-bottom: 3%;"><button type="button" class="btn btn-outline disabled tag" style="color: #868686;">Info Architecture</button></div> &nbsp;
+                                                                                <div style="padding-bottom: 3%;"><button type="button" class="btn btn-outline disabled tag" style="color: #868686;">Accessability</button></div> &nbsp;
+                                                                            </div>
+                                                                            <br><br>
+                        
+                                                                        <p class="card-text"><medium style="color: #00a9d3; font-weight: 400;">View Case Study&nbsp;&#8250&#8250</medium></p>
+                                                                    </div>
+                                                                </div>
+                                                            
+                                                                <div class="col-md-6 home-card-img" style="padding-top: 0px; padding-right: 0%; padding-bottom: 0%; background: #5CD790;">
+                                                                    <img src="img/thumbnails/ManulifeHome.png" alt="..." class = "vertical-center" style="vertical-align: middle;">
+                                                                </div>
+                        
+                                                            </div>
+                                                    </a>  
+                                                </div>
+                                            </div>
+                                        </a>
+
 
                                         <a href="TD-Sprout-Login.html">
                                             <div style="padding-left: 1%; padding-right: 1%;">
